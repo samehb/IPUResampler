@@ -5,7 +5,7 @@ IPUResampler allows you to downsize your IPS/IPU videos in order to save size on
 ## Usage
 1. Compile [IPUDecoder](https://github.com/samehb/IPUDecoder) and this project and place the two executable in a single folder of your choice. 
 2. Download [ReJig](http://www.videohelp.com/software/ReJig) and place the exe into the folder from step 1.
-3. Place the ps2str.exe (from your PS2 SDK) into the folder from step 1.
+3. Place the ps2str.exe and encvag.dll (from your PS2 SDK) into the folder from step 1.
 4. Place the IPS/IPU files you want resampled into the folder from step 1. The executables and the IPS/IPU files must be in the same folder.
 5. Run IPUResampler and drag and drop the files you want to resample into the IPUResampler box. Note that the box only accepts IPS and IPU files.
 6. Click Process, then wait for the message to the bottom to show. The statusbar tells you whether or not the files were resampled successfully.
